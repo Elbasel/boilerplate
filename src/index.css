@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+/* ========== START Dark Mode Colors ========== */
+:root {
+    --primary: rgb(24, 26, 27);
+    --secondary: #2B2F31;
+    --text: #d8d4cf;
+    --blue: #004daa;
+    --caption: #e8e6e3;
+    --main-font: 'Montserrat', sans-serif;
+}
+
+/* ========== END Dark Mode Colors ========== */
+/* ========== START CSS Reset ========== */
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+    color-scheme: dark;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: var(--main-font);
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ========== END CSS Reset ========== */
