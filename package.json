@@ -5,7 +5,7 @@
     "license": "MIT",
     "main": "./dist/index.bundle.js",
     "files": [
-        "dist/*"
+        "dist"
     ],
     "repository": "elbasel/boilerplate",
     "scripts": {
