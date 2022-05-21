@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "boilerplate for project quick start",
     "license": "MIT",
-    "main": "./src/index.js",
+    "main": "./dist/index.bundle.js",
     "repository": "elbasel/boilerplate",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
