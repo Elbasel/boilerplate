@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+/* ========== START Dark Mode Colors ========== */
+:root {
+    --primary-background: #181a1b;
+    --secondary-color: #2b2f31;
+    --blue: #004daa;
+    --text-color: #d8d4cf;
+    --caption-color: #e8e6e3;
+    --main-font: 'Montserrat', sans-serif;
+}
+
+/* ========== END Dark Mode Colors ========== */
