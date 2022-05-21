@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "boilerplate for project quick start",
     "license": "MIT",
-    "main": "./dist/index.bundle.js",
+    "main": "./dist/main.js",
     "files": [
         "dist"
     ],

@@ -11,3 +11,5 @@
 }
 
 /* ========== END Dark Mode Colors ========== */
+/* To use background images thourgh  url, use it in Javasciprt using 
+import asset statment and e.style.background = `${importedImage}` */
