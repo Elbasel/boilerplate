@@ -42,7 +42,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(png|jpg|gif)$/i,
+                test: /\.(png|gif)$/i,
                 use: [
                     {
                         loader: 'url-loader',
@@ -53,10 +53,10 @@ module.exports = {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
             },
-            // {
-            //     test: /\.(png|svg|jpg|jpeg|gif)$/i,
-            //     type: 'asset/resource',
-            // },
+            {
+                test: /\.(svg|jpg|jpeg)$/i,
+                type: 'asset/resource',
+            },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
                 type: 'asset/resource',
