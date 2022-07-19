@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+/* $primary-dark: #181a1b;
+$secondary-dark: #2b2f31;
+$dark-blue: #004daa;
+$text-white: #d8d4cf;
+$caption-white: #e8e6e3;
+$primary-font: 'Montserrat', sans-serif; */
+
+/* ========== END Dark Mode Colors ========== */
+/* To use background images thourgh  url, use it in Javasciprt using 
+import asset statment and e.style.background = `${importedImage}` */
+
+body {
+    /* background-color: $primary-dark; */
+}
+
+@layer components {
+    .btn {
+        @apply uppercase font-bold px-5 py-3 rounded;
+    }
+
+    .btn-primary {
+        @apply bg-yellow-500 text-white;
+    }
+
+    .btn:hover {
+        @apply bg-yellow-600;
+    }
+}
