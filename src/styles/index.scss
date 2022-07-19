@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-/* ========== START Dark Mode Colors ========== */
-:root {
-    --primary-color: #181a1b;
-    --secondary-color: #2b2f31;
-    --blue: #004daa;
-    --text-color: #d8d4cf;
-    --caption-color: #e8e6e3;
-    --main-font: 'Montserrat', sans-serif;
-}
+$primary-dark: #181a1b;
+$secondary-dark: #2b2f31;
+$dark-blue: #004daa;
+$text-white: #d8d4cf;
+$caption-white: #e8e6e3;
+$primary-font: 'Montserrat', sans-serif;
 
 /* ========== END Dark Mode Colors ========== */
 /* To use background images thourgh  url, use it in Javasciprt using 
 import asset statment and e.style.background = `${importedImage}` */
+
+body {
+    background-color: $primary-dark;
+}
