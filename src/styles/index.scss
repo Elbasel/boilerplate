@@ -1,5 +1,22 @@
-@use 'reset.css';
-@use 'sass:math';
+@import 'reset.css';
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import 'bootstrap/scss/functions';
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+// 4. Include any optional Bootstrap components as you like
+// @use '../node_modules/bootstrap/scss/root';
+// @use '../node_modules/bootstrap/scss/reboot';
+// @use '../node_modules/bootstrap/scss/type';
+// @use '../node_modules/bootstrap/scss/images';
+// @use '../node_modules/bootstrap/scss/containers';
+// @use '../node_modules/bootstrap/scss/grid';
+
+// 5. Add additional custom code here
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
@@ -10,10 +27,8 @@ $text-white: #d8d4cf;
 $caption-white: #e8e6e3;
 $primary-font: 'Montserrat', sans-serif;
 
-/* ========== END Dark Mode Colors ========== */
-/* To use background images thourgh  url, use it in Javasciprt using 
-import asset statment and e.style.background = `${importedImage}` */
+// /* ========== END Dark Mode Colors ========== */
+// /* To use background images thourgh  url, use it in Javasciprt using
+// import asset statment and e.style.background = `${importedImage}` */
 
-body {
-    background-color: $primary-dark;
-}
+// body {
